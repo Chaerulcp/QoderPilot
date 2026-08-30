@@ -1,0 +1,30 @@
+QoderPilot
+Copyright (c) 2026 Chaerul Candra Pranugrah
+
+This distribution is licensed under the MIT License. The full license text
+is provided in the LICENSE file.
+
+Portions of this software are derived from or inspired by the following
+MIT-licensed projects:
+
+1. qoder-creator (hirotomasato)
+   https://github.com/hirotomasato/qoder-creator
+   Copyright (c) 2026 Tomasato
+
+2. qoder-creator (okky-x0f)
+   https://github.com/okky-x0f/qoder-creator
+   Copyright (c) 2026 okky-x0f
+
+3. qoder-autoreg (arbilaksmana)
+   https://github.com/arbilaksmana/qoder-autoreg
+   Copyright (c) 2026 arbilaksmana
+   The local slider captcha solver (qoder_creator/captcha.py) is ported from
+   this project's captcha-solver implementation.
+
+This project also integrates with the MIT-licensed Tempik disposable email
+service (https://github.com/hirotomasato/tempik, Copyright (c) 2026
+masantoid). Tempik is deployed separately by the user and is not bundled
+with this distribution.
+
+The corresponding copyright and permission notices of the projects above
+apply to the portions derived from each project.

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Runtime output and credentials
+data/
+proxies.txt
+config.toml
+qoder_log.txt
+google_*.png
+qoder_dashboard_*.png
+unknown_status_*.png
+after_continue_*.png

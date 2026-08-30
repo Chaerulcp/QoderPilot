@@ -1,0 +1,34 @@
+[api]
+# Must include the Tempik API prefix, usually /api.
+tempmail_base = "https://tempik.example.com/api"
+qoder_base = "https://qoder.com"
+qoder_openapi = "https://openapi.qoder.sh"
+
+[signup]
+headless = false
+# Max number of full-signup restarts when the OTP email never arrives.
+# Total attempts = retry + 1.
+retry = 2
+
+[proxy]
+# none | file | env
+# One proxy is selected per account and reused for Temp Mail, signup,
+# Qoder Desktop, and the client-login browser.
+mode = "file"
+pool_file = "proxies.txt"
+
+[output]
+data_dir = "data"
+
+[logging]
+file = "data/qoder.log"
+
+[client]
+platform = "Windows" # Windows | Darwin | Linux
+# Visible mode is more reliable for Google/Qoder authentication.
+headless = false
+delay_min_seconds = 30
+delay_max_seconds = 60
+
+[pipeline]
+default_count = 1
